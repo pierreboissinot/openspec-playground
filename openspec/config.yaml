@@ -2,10 +2,10 @@ schema: spec-driven
 
 rules:
   design:
-    - Give each decision under Decisions its own heading in the form `### D<n>: <short title>`. IDs are permanent - never renumber or reuse one, even if a decision is removed.
-    - When a risk, trade-off or migration step follows from a decision, link to it with a relative Markdown link to its heading, e.g. `[D2](#d2-short-title)`.
+    - 'Give each decision under Decisions its own heading in the form `### D<n>: <short title>`. IDs are permanent - never renumber or reuse one, even if a decision is removed.'
+    - 'When a risk, trade-off or migration step follows from a decision, link to it with a relative Markdown link to its heading, e.g. `[D2](#d2-short-title)`.'
   tasks:
-    - When a task implements a design decision, link to it instead of restating it, with a relative Markdown link to the heading in design.md, e.g. `[D2](./design.md#d2-short-title)`.
+    - 'When a task implements a design decision, link to it instead of restating it, with a relative Markdown link to the heading in design.md, e.g. `[D2](./design.md#d2-short-title)`.'
 
 # Project context (optional)
 # Add only constraints that should guide OpenSpec artifacts and workflows.
